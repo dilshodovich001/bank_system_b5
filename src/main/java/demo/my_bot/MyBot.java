@@ -122,7 +122,7 @@ public class MyBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "";
+        return " ";
     }
 
     public void send(Long chatId, String text) {
