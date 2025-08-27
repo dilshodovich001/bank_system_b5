@@ -52,7 +52,7 @@ public class UserRepository {
                 entity.setStatus(Status.valueOf(split[6]));
                 entity.setRole(Role.valueOf(split[7]));
                 entity.setCreatedDate(LocalDateTime.parse(split[8]));
-                entity.setChatId(split[9]);
+//                entity.setChatId(split[9]);
                 temp.add(entity);
             }
         } catch (IOException e) {

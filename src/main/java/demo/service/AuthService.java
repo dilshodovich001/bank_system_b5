@@ -33,7 +33,7 @@ public class AuthService implements HasSmsCodeGenerator {
         entity.setRole(Role.USER);
         entity.setStatus(isBot ? Status.ACTIVE : Status.NOT_ACTIVE);
         entity.setCreatedDate(LocalDateTime.now());
-        entity.setChatId(request.getChatId().toString());
+//        entity.setChatId(request.getChatId().toString());
 
         repository.save(List.of(entity), true);
         Integer code = generatedCode();

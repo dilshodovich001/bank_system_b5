@@ -1,0 +1,54 @@
+[
+  {
+    "id": "fe093601-8186-4e4e-910c-974da443ae7d",
+    "user": {
+      "id": "3bce1e71-47f7-42d4-a363-50efddf05f51",
+      "name": "Maruf",
+      "surname": "Raufov",
+      "age": 25,
+      "password": "77777",
+      "phone": "77777",
+      "role": "USER",
+      "status": "ACTIVE",
+      "createdDate": "2025-08-26T20:53:02.325881",
+      "chatId": null
+    },
+    "card": {
+      "id": "08a64c02-5d03-4ae0-b85c-93a91e713127",
+      "cardNumber": "8600756223466521",
+      "expDate": "08/31",
+      "status": "NOT_ACTIVE",
+      "balance": 0.0,
+      "type": "UZCARD",
+      "userId": "28938a57-aa20-4eb4-9d0f-6107cad695f2",
+      "createdDate": "2025-08-26T20:51:06.5252014"
+    },
+    "created": "2025-08-26T20:58:31.0103361"
+  },
+  {
+    "id": "fe093601-8186-4e4e-910c-974da443ae7d",
+    "user": {
+      "id": "3bce1e71-47f7-42d4-a363-50efddf05f51",
+      "name": "Maruf",
+      "surname": "Raufov",
+      "age": 25,
+      "password": "77777",
+      "phone": "77777",
+      "role": "USER",
+      "status": "ACTIVE",
+      "createdDate": "2025-08-26T20:53:02.325881",
+      "chatId": null
+    },
+    "card": {
+      "id": "08a64c02-5d03-4ae0-b85c-93a91e713128",
+      "cardNumber": "8600456223466521",
+      "expDate": "08/31",
+      "status": "NOT_ACTIVE",
+      "balance": 0.0,
+      "type": "UZCARD",
+      "userId": "28938a57-aa20-4eb4-9d0f-6107cad695f2",
+      "createdDate": "2025-08-26T20:51:06.5252014"
+    },
+    "created": "2025-08-26T20:58:31.0103361"
+  }
+]

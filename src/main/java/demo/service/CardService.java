@@ -33,12 +33,21 @@ public class CardService {
         cardEntity.setType(type);
         cardEntity.setUserId(userId);
         cardEntity.setCreatedDate(LocalDateTime.now());
-        repository.save(List.of(cardEntity),true);
+        repository.save(List.of(cardEntity), true);
         return cardEntity.getCardNumber();
     }
 
     public static String generateUniqueNumber(String code) {
         return code + String.valueOf(System.currentTimeMillis()).substring(1);
+    }
+
+
+    public CardEntity getCardEntityByCardNumber(String cardNumber) {
+        return repository.readData()
+                .stream()
+                .filter(c -> c.getCardNumber().equals(cardNumber))
+                .findFirst()
+                .orElse(null);
     }
 
 }

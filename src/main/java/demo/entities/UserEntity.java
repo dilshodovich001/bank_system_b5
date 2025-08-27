@@ -3,10 +3,14 @@ package demo.entities;
 
 import demo.enums.Role;
 import demo.enums.Status;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.UUID;
-
+@Getter
+@Setter
 public class UserEntity {
     private UUID id;
     private String name;
@@ -18,6 +22,7 @@ public class UserEntity {
     private Status status;
     private LocalDateTime createdDate;
     private String chatId;
+//    private ArrayList<CardEntity> cardEntities;  old version
 
     public String getChatId() {
         return chatId;
@@ -99,7 +104,7 @@ public class UserEntity {
         this.createdDate = createdDate;
     }
 
-    public String writeUser(){
+    public String writeUser() {
         return String.format("%s#%s#%s#%s#%s#%s#%s#%s#%s#%s",
                 id,
                 name,
